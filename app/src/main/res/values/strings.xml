@@ -1,3 +1,25 @@
 <resources>
+
+    <!-- Commons Begin -->
     <string name="app_name">FoodDelivery</string>
+    <!-- Commons End -->
+
+    <!-- Navigation Begin -->
+    <string name="navigation_menu">Меню</string>
+    <string name="navigation_profile">Профиль</string>
+    <string name="navigation_cart">Корзина</string>
+    <!-- Navigation End -->
+
+    <!-- MenuFragment Begin -->
+    <string name="fragment_menu_hint">Меню в разработке</string>
+    <!-- MenuFragment End -->
+
+    <!-- ProfileFragment Begin -->
+    <string name="fragment_profile_hint">Профиль пользователя в разработке</string>
+    <!-- ProfileFragment End -->
+
+    <!-- CartFragment Begin -->
+    <string name="fragment_cart_hint">Корзина в разработке</string>
+    <!-- CartFragment End -->
+
 </resources>

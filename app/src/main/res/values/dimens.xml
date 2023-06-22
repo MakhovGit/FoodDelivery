@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MenuFragment Begin -->
+    <dimen name="fragment_menu_hint_text_size">26sp</dimen>
+    <!-- MenuFragment End -->
+
+    <!-- ProfileFragment Begin -->
+    <dimen name="fragment_profile_hint_text_size">26sp</dimen>
+    <!-- ProfileFragment End -->
+
+    <!-- CartFragment Begin -->
+    <dimen name="fragment_cart_hint_text_size">26sp</dimen>
+    <!-- CartFragment End -->
+
+</resources>
