@@ -5,16 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/fragment_menu_hint"
-        android:layout_width="match_parent"
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/fragment_menu_list_cities"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fragment_menu_hint"
-        android:textAlignment="center"
-        android:textSize="@dimen/fragment_menu_hint_text_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/fragment_menu_list_cities_margin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/fragment_menu_qr_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_menu_qr_button_margin"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/fragment_menu_qr"
+        android:src="@drawable/baseline_qr_code_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_menu_banners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_max="@dimen/fragment_menu_banners_constraint_high_max"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_menu_qr_button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_menu_menu_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/fragment_menu_menu_line_margin_vertical"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_menu_banners" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
