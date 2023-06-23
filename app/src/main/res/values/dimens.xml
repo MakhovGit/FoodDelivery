@@ -2,10 +2,7 @@
 <resources>
 
     <!-- MenuFragment Begin -->
-    <dimen name="fragment_menu_list_cities_margin">20dp</dimen>
-    <dimen name="fragment_menu_qr_button_margin">10dp</dimen>
-    <dimen name="fragment_menu_banners_constraint_high_max">150dp</dimen>
-    <dimen name="fragment_menu_menu_line_margin_vertical">5dp</dimen>
+    <dimen name="fragment_menu_hint_text_size">26sp</dimen>
     <!-- MenuFragment End -->
 
     <!-- ProfileFragment Begin -->
@@ -15,18 +12,5 @@
     <!-- CartFragment Begin -->
     <dimen name="fragment_cart_hint_text_size">26sp</dimen>
     <!-- CartFragment End -->
-
-    <!-- Banners item Begin -->
-    <dimen name="banners_item_root_margin_horizontal">10dp</dimen>
-    <dimen name="banners_item_root_corner_radius">10dp</dimen>
-    <!-- Banners item End -->
-
-    <!-- Menu line item Begin -->
-    <dimen name="menu_line_item_root_margin">10dp</dimen>
-    <dimen name="menu_line_item_root_corner_radius">10dp</dimen>
-    <dimen name="menu_line_item_text_margin_horizontal">20dp</dimen>
-    <dimen name="menu_line_item_text_margin_vertical">10dp</dimen>
-    <dimen name="menu_line_item_text_text_size">20sp</dimen>
-    <!-- Menu line item End -->
 
 </resources>

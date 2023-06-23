@@ -11,7 +11,7 @@
     <!-- Navigation End -->
 
     <!-- MenuFragment Begin -->
-    <string name="fragment_menu_qr">QR-код</string>
+    <string name="fragment_menu_hint">Меню в разработке</string>
     <!-- MenuFragment End -->
 
     <!-- ProfileFragment Begin -->
