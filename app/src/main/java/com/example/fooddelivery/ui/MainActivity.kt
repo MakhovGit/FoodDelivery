@@ -15,12 +15,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setNavigation()
+    }
+
+    private fun setNavigation() {
         val navHostFragment = binding.mainActivityFragmentContainer.getFragment<NavHostFragment>()
         navController = navHostFragment.navController
         binding.mainActivityBottomNavigation.setupWithNavController(navHostFragment.navController)
     }
 
-    override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp()
-    }
 }

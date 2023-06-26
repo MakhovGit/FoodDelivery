@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fooddelivery.R
+import com.example.fooddelivery.utils.ZERO
 
 class MenuFragmentMenuAdapter :
     RecyclerView.Adapter<MenuFragmentMenuAdapter.RecyclerItemViewHolder>() {
@@ -25,7 +26,7 @@ class MenuFragmentMenuAdapter :
         )
 
     override fun onBindViewHolder(holder: RecyclerItemViewHolder, position: Int) {
-        holder.bind(menu[position])
+        holder.bind(menu[position], position)
     }
 
     override fun getItemCount() = menu.size
@@ -34,8 +35,12 @@ class MenuFragmentMenuAdapter :
 
         private val text: AppCompatTextView = itemView.findViewById(R.id.menu_line_item_text)
 
-        fun bind(data: String) {
+        fun bind(data: String, position: Int) {
             text.text = data
+            if (position == Int.ZERO) {
+                text.setTextColor(itemView.context.getColor(R.color.button_pressed_text_color))
+                itemView.setBackgroundColor(itemView.context.getColor(R.color.button_pressed_background_color))
+            }
         }
     }
 }

@@ -2,10 +2,13 @@
 <resources>
 
     <!-- MenuFragment Begin -->
+    <dimen name="fragment_menu_error_message_text_size">25sp</dimen>
+    <dimen name="fragment_menu_reload_button_text_size">25sp</dimen>
     <dimen name="fragment_menu_list_cities_margin">20dp</dimen>
     <dimen name="fragment_menu_qr_button_margin">10dp</dimen>
-    <dimen name="fragment_menu_banners_constraint_high_max">150dp</dimen>
+    <dimen name="fragment_menu_banners_height">150dp</dimen>
     <dimen name="fragment_menu_menu_line_margin_vertical">5dp</dimen>
+    <dimen name="fragment_menu_food_list_margin_vertical">5dp</dimen>
     <!-- MenuFragment End -->
 
     <!-- ProfileFragment Begin -->
@@ -28,5 +31,19 @@
     <dimen name="menu_line_item_text_margin_vertical">10dp</dimen>
     <dimen name="menu_line_item_text_text_size">20sp</dimen>
     <!-- Menu line item End -->
+
+    <!-- Translation item Begin -->
+    <dimen name="translation_item_root_margin_horizontal">5dp</dimen>
+    <dimen name="translation_item_root_margin_top">5dp</dimen>
+    <dimen name="translation_item_root_corner_radius">5dp</dimen>
+    <dimen name="translation_item_root_card_elevation">5dp</dimen>
+    <dimen name="translation_item_container_padding_vertical">10dp</dimen>
+    <dimen name="translation_item_image_height">80dp</dimen>
+    <dimen name="translation_item_text_container_margin_start">10dp</dimen>
+    <dimen name="translation_item_title_margin_horizontal">10dp</dimen>
+    <dimen name="translation_item_title_text_size">20sp</dimen>
+    <dimen name="translation_item_description_margin_horizontal">10dp</dimen>
+    <dimen name="translation_item_description_text_size">20sp</dimen>
+    <!-- Translation item End -->
 
 </resources>
