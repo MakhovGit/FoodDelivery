@@ -18,3 +18,15 @@ FoodDelivery - это приложение, которое имитирует и
 - Retrofit
 - Coil
 - Skyeng Dictionary API
+
+Скриншоты:
+
+<div align="center">
+    <img src="/screenshots/Screenshot_01.png" width="400px"><p>Главный экран сразу после запуска приложения</p></img> 
+    <br>
+    <img src="/screenshots/Screenshot_02.png" width="400px"><p>Главный экран после прокрутки списка продуктов</p></img> 
+    <br>
+    <img src="/screenshots/Screenshot_03.png" width="400px"><p>Экран профиля пользователя</p></img> 
+    <br>
+    <img src="/screenshots/Screenshot_04.png" width="400px"><p>Экран корзины</p></img> 
+</div>
