@@ -29,4 +29,6 @@ FoodDelivery - это приложение, которое имитирует и
     <img src="/screenshots/Screenshot_03.png" width="400px"><p>Экран профиля пользователя</p></img> 
     <br>
     <img src="/screenshots/Screenshot_04.png" width="400px"><p>Экран корзины</p></img> 
+    <br>
+    <img src="/screenshots/Screenshot_05.png" width="400px"><p>Сообщение об ошибке загрузки данных</p></img> 
 </div>
